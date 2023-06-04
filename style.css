@@ -53,3 +53,18 @@ a:visited {
     color: blue;
     font-size: 1rem;
 }
+
+aside {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.hero-image {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-image img {
+    grid-column: 3/12;
+}
